@@ -1,0 +1,14 @@
+.balance {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.cents {
+  font-size: 32px;
+  color: #8e9097;
+}
+
+.balanceSectionAddress {
+  font-size: 14px;
+  color: #8e8e93;
+}

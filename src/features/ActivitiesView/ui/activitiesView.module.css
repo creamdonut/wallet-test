@@ -1,0 +1,54 @@
+.monthLabel {
+  font-size: 17px;
+  padding: 11px 0;
+  color: var(--color-label);
+}
+
+.activityItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5em 0;
+}
+
+.activityIcon {
+  position: relative;
+}
+
+.activityIconExpenses {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.activityDetails {
+  flex-grow: 1;
+  padding: 0 1em;
+}
+
+.activityType {
+  font-weight: bold;
+}
+
+.activityAddress {
+  color: var(--color-light-gray);
+  font-size: 14px;
+}
+
+.activityInfo {
+  text-align: right;
+}
+
+.activityDate {
+  color: var(--color-light-gray);
+  font-size: 14px;
+}
+
+.activityAmount {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.positive {
+  color: var(--color-positive-green);
+}

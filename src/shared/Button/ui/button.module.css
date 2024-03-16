@@ -1,0 +1,40 @@
+.btn {
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 14px 24px;
+  margin: 0 0.3em;
+  flex-grow: 1;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  justify-content: center;
+}
+
+.btn.light {
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+}
+
+.btn.light:hover {
+  background-color: #f0f0f0;
+}
+
+.icon-send {
+  rotate: 180deg;
+}
+
+.btn:hover {
+  background-color: #0069d9;
+}
+
+.btn.special {
+  background-color: #0056b3;
+}
+
+.btn.special:hover {
+  background-color: #004da0;
+}

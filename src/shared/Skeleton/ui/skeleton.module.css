@@ -1,0 +1,65 @@
+.headerSkeleton {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 64px;
+  padding: 40px 0;
+}
+
+.mainSkeletonRow {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.fullWidthSkeleton {
+  margin-bottom: 26px;
+}
+
+.tokenRowsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tokenRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tokenRowLeft {
+  display: flex;
+  gap: 12px;
+}
+
+.tokenRowLeftColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tokenRowRight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -468px 0;
+  }
+  100% {
+    background-position: 468px 0;
+  }
+}
+
+.skeletonItem {
+  animation: shimmer 1.5s infinite linear;
+  background: #f6f7f8;
+  background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+  background-size: 800px 104px;
+  position: relative;
+}

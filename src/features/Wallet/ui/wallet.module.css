@@ -1,0 +1,30 @@
+.walletApp {
+  background: white;
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+  overflow: hidden;
+}
+
+.balanceSection {
+  text-align: center;
+  background: linear-gradient(180deg, #c4eaff 0%, #ffffff 0%, #e1efff 39.6%);
+  padding: 40px 0 calc(40px + var(--balance-section-offset)) 0px;
+}
+
+.controlSection {
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  padding: 24px 16px;
+  margin-top: calc(var(--balance-section-offset) * -1);
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  border-radius: 40px;
+}
